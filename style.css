@@ -1,0 +1,22 @@
+:root { color: #2b3d2e; background: #f8f6ef; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; line-height: 1.7; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: inherit; }
+.page { margin: 0 auto; max-width: 720px; padding: 56px 24px 42px; }
+.brand { color: #315b39; font-size: 18px; font-weight: 800; letter-spacing: .08em; text-decoration: none; }
+.eyebrow { color: #71866e; font-size: 12px; font-weight: 800; letter-spacing: .14em; margin: 58px 0 8px; }
+h1 { color: #294732; font-size: clamp(30px, 8vw, 48px); letter-spacing: -.04em; line-height: 1.2; margin: 0; }
+.lead { color: #607260; font-size: 16px; margin: 24px 0 34px; max-width: 580px; }
+.card { background: #fff; border: 1px solid #e2e9df; border-radius: 22px; margin-top: 16px; padding: 25px; }
+.card.muted { background: #eef4e9; border-color: transparent; }
+h2 { color: #315b39; font-size: 19px; line-height: 1.35; margin: 0 0 10px; }
+p { margin: 0 0 14px; }
+.button { background: #285c39; border-radius: 13px; color: #fff; display: inline-block; font-weight: 800; margin: 7px 0 15px; padding: 12px 18px; text-decoration: none; }
+.text-link { color: #315b39; font-weight: 800; text-decoration: none; }
+.note, .updated { color: #738172; font-size: 13px; margin-bottom: 0; }
+.policy { max-width: 760px; }
+.policy h1 { font-size: clamp(30px, 7vw, 43px); }
+.policy section { border-top: 1px solid #dce5d8; margin-top: 29px; padding-top: 25px; }
+.policy section p { color: #4f604f; }
+footer { color: #738172; font-size: 12px; margin-top: 44px; }
+@media (max-width: 480px) { .page { padding-top: 36px; } .eyebrow { margin-top: 42px; } .card { padding: 21px; } }
