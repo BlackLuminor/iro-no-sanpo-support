@@ -4,6 +4,8 @@ body { margin: 0; }
 a { color: inherit; }
 .page { margin: 0 auto; max-width: 720px; padding: 56px 24px 42px; }
 .brand { color: #315b39; font-size: 18px; font-weight: 800; letter-spacing: .08em; text-decoration: none; }
+.language { color: #738172; font-size: 13px; margin: 14px 0 0; }
+.language a { color: #315b39; font-weight: 800; text-decoration: none; }
 .eyebrow { color: #71866e; font-size: 12px; font-weight: 800; letter-spacing: .14em; margin: 58px 0 8px; }
 h1 { color: #294732; font-size: clamp(30px, 8vw, 48px); letter-spacing: -.04em; line-height: 1.2; margin: 0; }
 .lead { color: #607260; font-size: 16px; margin: 24px 0 34px; max-width: 580px; }
